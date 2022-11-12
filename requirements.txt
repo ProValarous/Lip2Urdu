@@ -8,3 +8,9 @@ MoviePy
 torch
 
 dataset link : https://habibuniversity-my.sharepoint.com/:f:/g/personal/ma06413_st_habib_edu_pk/EoyyPl_bXeFPgZJeIB8C0nwBDdx9L1YLqs_4YVLvys6AjA?e=el5fed
+
+reference git-repositories:
+-> https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/SpeechSynthesis/Tacotron2 (Tacotron2)
+-> https://github.com/Rudrabha/Lip2Wav (Lip2Wav)
+-> https://github.com/CorentinJ/Real-Time-Voice-Cloning (Real-Time-Voice-Cloning)
+-> https://github.com/NVIDIA/waveglow (waveglow)
