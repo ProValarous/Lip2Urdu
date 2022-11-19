@@ -8,14 +8,14 @@ IMG_SIZE = 128
 def seg_sorter(seg: str):
     return int(seg[4:])
 
-def load_segments(dir:str, start : int, end: int):
+def load_segment(dir:str, start : int, end: int):
     data_path = dir
     data_arr = []
     path = os.listdir(data_path)
     path.sort(key=seg_sorter)
     for file in path[start:end]:
         seg_arr = []
-        print(file)
+        print(f"loaded : {file}")
         sub_path = os.path.join(data_path,file)
         for img in os.listdir(sub_path):
             img_path = os.path.join(data_path,file,img)
