@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
+import numpy as np
 
 def conv3x3(in_planes, out_planes, strd=1, padding=1, bias=False):
     "3x3 convolution with padding"
